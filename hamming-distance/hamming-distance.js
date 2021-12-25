@@ -1,0 +1,1 @@
+const hammingDistance = (x, y) => (x ^ y).toString(2).match(/[1]/g)?.length || 0;
