@@ -1,1 +1,1 @@
-const containsDuplicate = nums => nums.some((num, index) => nums.indexOf(num) !== index)
+const containsDuplicate = nums => nums.some((num, index) => nums.indexOf(num) !== index);
